@@ -27,7 +27,8 @@ with the `setOptions` method. It has 1 Argument that is an Object that can conta
 -  `xxss` - X-XSS-Protection 1; mode=block
 -  `xcontent` - X-Content-Type-Options nosniff
 -  `xdownload` - X-Download-Options noopen
--  `cors` - {origin,methods} (String) setting the 2 headers: Access-Control-Allow-Origin and Access-Control-Allow-Methods
+-  `cors` - {origin,methods} (String) setting the 2 headers: 
+            Access-Control-Allow-Origin and Access-Control-Allow-Methods
 -  `hsts` - Strict-Transport-Security max-age=31536000
 -  `xdns` - X-DNS-Prefetch-Control true-> on, false->off
 -  `hideserver` - hides the Server header
