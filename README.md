@@ -21,7 +21,7 @@ The second parameter of the handler function is  `Response`:
 ## Options
 Options can be set per app and request
 with the `setOptions` method. It has 1 Argument that is an Object that can contain the following keys with boolen values except explictly specified:
-
+-   Example: `app.setOptions({gzip:true})`
 -   `nocache`  - Cache-Control, Expires, Pragma headers
 -   `xdeny` - X-Frame-Options DENY
 -   `xsameorigin` - X-Frame-Options SAMEORIGIN
