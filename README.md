@@ -31,7 +31,7 @@ with the `setOptions` method. It has 1 Argument that is an Object that can conta
 -  `cors` - \<String> Access-Control-Allow-Origin
 -  `corsmethods` - \<String> Access-Control-Allow-Methods          
 -  `hsts` - Strict-Transport-Security max-age=31536000
--  `xdns` - X-DNS-Prefetch-Control true-> on, false->off
+-  `xdns` - X-DNS-Prefetch-Control: true -> on, false -> off
 -  `hideserver` - hides the Server header
 -  `brotli` - enable brotli compression
 -  `gzip` - enable gzip compression
